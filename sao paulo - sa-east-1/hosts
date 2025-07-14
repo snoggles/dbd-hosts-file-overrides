@@ -16,12 +16,8 @@
 #      102.54.94.97     rhino.acme.com          # source server
 #       38.25.63.10     x.acme.com              # x client host
 # localhost name resolution is handled within DNS itself.
-# Added by Docker Desktop
-# To allow the same kube context to work on the host and the container:
-# End of section
-  127.0.0.1 localhost
-  ::1       localhost
-
+# 127.0.0.1 localhost
+# ::1       localhost
   
   0.0.0.0 gamelift-ping.us-east-1.api.aws
   0.0.0.0 gamelift-ping.us-east-2.api.aws
